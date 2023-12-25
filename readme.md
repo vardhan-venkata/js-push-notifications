@@ -6,25 +6,24 @@
 
 ## Explanation
 
-- Notificaion()
-- - It creates a new instance of the notification
+- Notificaion() - It creates a new instance of the notification
 
 ## Steps to implement
 
 1. First we can request permission from the user.
 
-- - We can get the permission by using requestPermission()
-- - It will give you a promise
-- - 1. We have "granted" -> which means user granted the notification access
-- - 2. We have "denied" -> which means user revoked the access
-- - 3. We have "default" -> which means user haven't done any action.
-    <hr/>
+- We can get the permission by using requestPermission()
+- It will give you a promise
+- 1.  We have "granted" -> which means user granted the notification access
+- 2.  We have "denied" -> which means user revoked the access
+- 3.  We have "default" -> which means user haven't done any action.
+  <hr/>
 
 2. We can now based on the user action, we can take particular steps to perform
 
-- - 1. if "granted" we can show the notification
-- - 2. If "denied" we can request again
-- - 3. If "default" we can request again
+- 1.  if "granted" we can show the notification
+- 2.  If "denied" we can request again
+- 3. If "default" we can request again
 
 3. Now we can create the notification
 
